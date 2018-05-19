@@ -13,7 +13,7 @@ var sequence = require("gulp-sequence");
 var mock = require("./mock");
 
 gulp.task("css", function() {
-    return gulp.src("src/scss/*.scss")
+    return gulp.src("src/scss/**/*.scss")
         .pipe(sass())
         .pipe(autoprefixer({
             browsers: ['last 2 version', 'Android >= 4.0']
@@ -25,10 +25,12 @@ gulp.task("css", function() {
 gulp.task("server", function() {
     gulp.src("src")
         .pipe(server({
-            port: 9090,
+            port: 1236,
+            host: '192.168.1.100',
             middleware: function(req, res, next) {
                 if (/\/api/g.test(req.url)) {
                     var data = mock(req.url);
+
                     res.end(JSON.stringify(data))
                 }
                 next()
@@ -37,7 +39,7 @@ gulp.task("server", function() {
 })
 
 gulp.task("watch", function() {
-    gulp.watch("src/scss/*.scss", ["css"])
+    gulp.watch("src/scss/**/*.scss", ["css"])
 })
 
 gulp.task("default", function(cb) {

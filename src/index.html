@@ -3,15 +3,126 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>Document</title>
+    <script src="js/libs/flexible.js"></script>
+    <title>首页</title>
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="scss/swiper.min.css">
 </head>
 
 <body>
+    <div class="wrap">
+        <header>
+            <span class="icon-sign"></span>
+            <div class="switch-tab">
+                <span class="tab-item">书城</span>
+                <span class="tab-item">书架</span>
+                <div class="line"></div>
+            </div>
+            <span class="icon-my"></span>
+        </header>
+        <div class="content">
+            <div class="swiper-container wrap-swiper">
+                <div class="swiper-wrapper">
+                    <!-- 书城 -->
+                    <div class="swiper-slide city-scroll  swiper-no-swiping">
+                        <div up="上拉加载" down="下拉刷新">
+                            <div class="block">
+                                <div class="search-link">
+                                    <a class="not-ipt" href="page/search.html">请输入书名/关键字/作者</a>
+                                </div>
+                                <div class="swiper-container banner-swiper swiper-no-swiping">
+                                    <div class="swiper-wrapper banner"></div>
+                                    <div class="swiper-pagination"></div>
+                                </div>
+                                <script type="text/x-handlebars-template" id="slide-tpl">
+                                    {{#each data}}
+                                    <div class="swiper-slide">
+                                        <a href="{{id}}">
+                                            <img src="{{ad_pic_url}}">
+                                        </a>
+                                    </div>
+                                    {{/each}}
+                                </script>
+                                <ul class="index-top-btns">
+                                    <li>
+                                        <a href="page/female.html">
+                                            <img src="imgs/icon-female.png">
+                                            <span>女生</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <img src="imgs/icon-male.png">
+                                            <span>男生</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <img src="imgs/icon-category.png">
+                                            <span>分类</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <img src="imgs/icon-rank.png">
+                                            <span>排行</span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <section class="block">
+                                <div class="block-title-line">
+                                    <h2>本周最火</h2>
+                                </div>
+                                <ul class="book-t-b-list" id="hot-list"></ul>
+                            </section>
+                            <section class="block">
+                                <div class="block-title-line">
+                                    <h2>重磅推荐 <i>推</i></h2>
+                                </div>
+                                <ul class="book-l-r-list" id="first-item"></ul>
+                                <ul class="book-l-r-list" id="not-first-list"></ul>
+                                <script id="recommend-list-tpl" type="text/x-handlebars-template">
+                                    {{#each this}} {{#equal @index 0}} {{else}} {{#limit @index 5}}
+                                    <li class="book-item">
+                                        <span>{{addInd @index}}</span>
+                                        <h3 class="title">{{title}}</h3>
+                                        <span>{{authors}}</span>
+                                    </li>
+                                    {{/limit}} {{/equal}} {{/each}}
+                                </script>
+                            </section>
+                            <ul class="not">
+                                <li>1</li>
+                                <li>1</li>
+                                <li>1</li>
+                                <li>1</li>
+                                <li>1</li>
+                                <li>1</li>
+                                <li>1</li>
+                                <li>1</li>
+                                <li>1</li>
+                                <li>1</li>
+                            </ul>
+                            <ul class="book-l-r-list" id="load-more"></ul>
+                        </div>
+                    </div>
+                    <!-- 书架 -->
+                    <div class="swiper-slide">
+                        <div class="search-link">
+                            <div class="not-ipt">请输入书名/关键字/作者</div>
+                            <span class="switch-shelf"></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
     <script src="js/libs/require.js"></script>
     <script>
-    require(['./js/main.js'], function() {
-        require(['index'])
-    })
+        require(['./js/main.js'], function() {
+            require(['index'])
+        })
     </script>
 </body>
 

@@ -1,8 +1,7 @@
 {
     "keyword": "channel-h5-index-new",
     "hidden_info": "{\"title\":\"书城\",\"default_type\":\"\",\"custom_style\":\"\"}",
-    "items": [
-        {
+    "items": [{
             "status": 1,
             "hidden_info": "[[type|home-top;no_detail|0;show_count|8]]",
             "ad_type": 201,
@@ -16,8 +15,7 @@
             "data": {
                 "count": 7,
                 "total": 7,
-                "data": [
-                    {
+                "data": [{
                         "status": 1,
                         "ad_copy": "[[type|slider]]",
                         "hidden_info": "[[type|banner;img_only|0;is_full|0;summary|;more_text|;more_url|;no_detail|1]]",
@@ -46,81 +44,6 @@
                         "height": 0,
                         "id": "71278",
                         "size": 127881
-                    },
-                    {
-                        "status": 1,
-                        "ad_copy": "[[type|tab;icon|http://image.read.duokan.com/mfsv2/download/s010/p015iBxwdkmU/5wc5uzYhLZ7iVa.png;url|#page=channel&id=664]]",
-                        "hidden_info": "{\"type\":\"custom\"}",
-                        "ad_type": 0,
-                        "ad_priority": 3,
-                        "width": 0,
-                        "track": "418_0-62305.355_2-59441",
-                        "reference_id": "",
-                        "ad_pic_url": "",
-                        "ad_name": "限免",
-                        "height": 0,
-                        "id": "59441",
-                        "size": 0
-                    },
-                    {
-                        "status": 1,
-                        "ad_copy": "[[type|tab;icon|http://image.read.duokan.com/mfsv2/download/s010/p01LWZmXGCpy/aSrSq6Llgt9PqE.png;url|#page=channel&id=370]]",
-                        "hidden_info": "",
-                        "ad_type": 0,
-                        "ad_priority": 4,
-                        "width": 0,
-                        "track": "418_0-62305.355_3-68480",
-                        "reference_id": "",
-                        "ad_pic_url": "",
-                        "ad_name": "女生",
-                        "height": 0,
-                        "id": "68480",
-                        "size": 0
-                    },
-                    {
-                        "status": 1,
-                        "ad_copy": "[[type|tab;icon|http://image.read.duokan.com/mfsv2/download/fdsc3/p01NVfuCskSL/W9VPXMnDunLwGT.png;url|#page=channel&id=369;]]",
-                        "hidden_info": "",
-                        "ad_type": 0,
-                        "ad_priority": 5,
-                        "width": 0,
-                        "track": "418_0-62305.355_4-68479",
-                        "reference_id": "",
-                        "ad_pic_url": "",
-                        "ad_name": "男生",
-                        "height": 0,
-                        "id": "68479",
-                        "size": 0
-                    },
-                    {
-                        "status": 1,
-                        "ad_copy": "[[type|tab;icon|http://image.read.duokan.com/mfsv2/download/s010/p01pz5NtyRI0/2ENONnvOg23NXM.png;url|/hs/market/cate]]",
-                        "hidden_info": "",
-                        "ad_type": 0,
-                        "ad_priority": 6,
-                        "width": 640,
-                        "track": "418_0-62305.355_5-68481",
-                        "reference_id": "",
-                        "ad_pic_url": "",
-                        "ad_name": "分类",
-                        "height": 230,
-                        "id": "68481",
-                        "size": 0
-                    },
-                    {
-                        "status": 1,
-                        "ad_copy": "[[type|tab;icon|http://image.read.duokan.com/mfsv2/download/s010/p010kK7M5VyH/8kPz9nKvRXyu1k.png;url|/hs/market/rank]]",
-                        "hidden_info": "",
-                        "ad_type": 0,
-                        "ad_priority": 7,
-                        "width": 0,
-                        "track": "418_0-62305.355_6-68482",
-                        "reference_id": "",
-                        "ad_pic_url": "",
-                        "ad_name": "排行",
-                        "height": 0,
-                        "id": "68482",
-                        "size": 0
                     }
                 ]
             },
@@ -141,8 +64,7 @@
             "data": {
                 "count": 6,
                 "total": 19,
-                "data": [
-                    {
+                "data": [{
                         "ad": 0,
                         "word_count": 5423347,
                         "owner": 0,
@@ -180,8 +102,7 @@
                         "price": 5,
                         "chapter_count": 2245,
                         "authors": "铁锁",
-                        "categories": [
-                            {
+                        "categories": [{
                                 "category_id": 8000000,
                                 "label": "灵异"
                             },
@@ -229,8 +150,7 @@
                         "price": 5,
                         "chapter_count": 2632,
                         "authors": "一笑倾晨",
-                        "categories": [
-                            {
+                        "categories": [{
                                 "category_id": 18000000,
                                 "label": "现代言情"
                             },
@@ -283,8 +203,7 @@
                         "price": 5,
                         "chapter_count": 3465,
                         "authors": "九灯和善",
-                        "categories": [
-                            {
+                        "categories": [{
                                 "category_id": 20000,
                                 "label": "热血都市"
                             },
@@ -342,8 +261,7 @@
                         "price": 5,
                         "chapter_count": 1068,
                         "authors": "心梦无痕",
-                        "categories": [
-                            {
+                        "categories": [{
                                 "category_id": 20000,
                                 "label": "热血都市"
                             },
@@ -407,8 +325,7 @@
                         "price": 5,
                         "chapter_count": 3106,
                         "authors": "明日复明日",
-                        "categories": [
-                            {
+                        "categories": [{
                                 "category_id": 20000,
                                 "label": "热血都市"
                             },
@@ -470,8 +387,7 @@
                         "price": 3,
                         "chapter_count": 797,
                         "authors": "陌骄阳",
-                        "categories": [
-                            {
+                        "categories": [{
                                 "category_id": 120000,
                                 "label": "总裁世家"
                             },
@@ -515,8 +431,7 @@
             "data": {
                 "count": 30,
                 "total": 30,
-                "data": [
-                    {
+                "data": [{
                         "ad": 0,
                         "word_count": 5062093,
                         "owner": 0,
@@ -549,8 +464,7 @@
                         "price": 5,
                         "chapter_count": 2431,
                         "authors": "一笔烟云",
-                        "categories": [
-                            {
+                        "categories": [{
                                 "category_id": 20000,
                                 "label": "热血都市"
                             },
@@ -618,8 +532,7 @@
                         "price": 5,
                         "chapter_count": 2448,
                         "authors": "三寸烟火",
-                        "categories": [
-                            {
+                        "categories": [{
                                 "category_id": 20000,
                                 "label": "热血都市"
                             },
@@ -677,8 +590,7 @@
                         "price": 5,
                         "chapter_count": 238,
                         "authors": "本物天下霸唱",
-                        "categories": [
-                            {
+                        "categories": [{
                                 "category_id": 50000,
                                 "label": "灵异悬疑"
                             },
@@ -736,8 +648,7 @@
                         "price": 5,
                         "chapter_count": 708,
                         "authors": "七品",
-                        "categories": [
-                            {
+                        "categories": [{
                                 "category_id": 30000,
                                 "label": "武侠仙侠"
                             },
@@ -797,8 +708,7 @@
                         "price": 5,
                         "chapter_count": 4007,
                         "authors": "河帅",
-                        "categories": [
-                            {
+                        "categories": [{
                                 "category_id": 20000,
                                 "label": "热血都市"
                             },
@@ -862,8 +772,7 @@
                         "price": 5,
                         "chapter_count": 6473,
                         "authors": "花都大少",
-                        "categories": [
-                            {
+                        "categories": [{
                                 "category_id": 20000,
                                 "label": "热血都市"
                             },
@@ -927,8 +836,7 @@
                         "price": 5,
                         "chapter_count": 3790,
                         "authors": "木榆",
-                        "categories": [
-                            {
+                        "categories": [{
                                 "category_id": 20000,
                                 "label": "热血都市"
                             },
@@ -984,8 +892,7 @@
                         "price": 5,
                         "chapter_count": 1837,
                         "authors": "九姑良",
-                        "categories": [
-                            {
+                        "categories": [{
                                 "category_id": 5000000,
                                 "label": "都市"
                             },
@@ -1040,8 +947,7 @@
                         "price": 5,
                         "chapter_count": 3412,
                         "authors": "卜非",
-                        "categories": [
-                            {
+                        "categories": [{
                                 "category_id": 8000000,
                                 "label": "灵异"
                             },
@@ -1090,8 +996,7 @@
                         "price": 5,
                         "chapter_count": 859,
                         "authors": "胜己",
-                        "categories": [
-                            {
+                        "categories": [{
                                 "category_id": 10000,
                                 "label": "玄幻奇幻"
                             },
@@ -1151,8 +1056,7 @@
                         "price": 3,
                         "chapter_count": 2046,
                         "authors": "血色红泪",
-                        "categories": [
-                            {
+                        "categories": [{
                                 "category_id": 20000,
                                 "label": "热血都市"
                             },
@@ -1210,8 +1114,7 @@
                         "price": 5,
                         "chapter_count": 629,
                         "authors": "酒天",
-                        "categories": [
-                            {
+                        "categories": [{
                                 "category_id": 100000,
                                 "label": "现代言情"
                             },
@@ -1272,8 +1175,7 @@
                         "price": 3,
                         "chapter_count": 1052,
                         "authors": "酸豆角",
-                        "categories": [
-                            {
+                        "categories": [{
                                 "category_id": 30000,
                                 "label": "武侠仙侠"
                             },
@@ -1335,8 +1237,7 @@
                         "price": 3,
                         "chapter_count": 1806,
                         "authors": "逍遥门主",
-                        "categories": [
-                            {
+                        "categories": [{
                                 "category_id": 20000,
                                 "label": "热血都市"
                             },
@@ -1399,8 +1300,7 @@
                         "price": 5,
                         "chapter_count": 2594,
                         "authors": "黑夜与孤城",
-                        "categories": [
-                            {
+                        "categories": [{
                                 "category_id": 20000,
                                 "label": "热血都市"
                             },
@@ -1458,8 +1358,7 @@
                         "price": 5,
                         "chapter_count": 997,
                         "authors": "绛美人",
-                        "categories": [
-                            {
+                        "categories": [{
                                 "category_id": 120000,
                                 "label": "总裁世家"
                             },
@@ -1517,8 +1416,7 @@
                         "price": 3,
                         "chapter_count": 363,
                         "authors": "肖若水",
-                        "categories": [
-                            {
+                        "categories": [{
                                 "category_id": 120000,
                                 "label": "总裁世家"
                             },
@@ -1581,8 +1479,7 @@
                         "price": 5,
                         "chapter_count": 2561,
                         "authors": "沫果",
-                        "categories": [
-                            {
+                        "categories": [{
                                 "category_id": 18000000,
                                 "label": "现代言情"
                             },
@@ -1636,8 +1533,7 @@
                         "price": 3,
                         "chapter_count": 923,
                         "authors": "安知晓",
-                        "categories": [
-                            {
+                        "categories": [{
                                 "category_id": 120000,
                                 "label": "总裁世家"
                             },
@@ -1695,8 +1591,7 @@
                         "price": 3,
                         "chapter_count": 425,
                         "authors": "云檀",
-                        "categories": [
-                            {
+                        "categories": [{
                                 "category_id": 120000,
                                 "label": "总裁世家"
                             },
@@ -1758,8 +1653,7 @@
                         "price": 5,
                         "chapter_count": 2149,
                         "authors": "北川云上锦",
-                        "categories": [
-                            {
+                        "categories": [{
                                 "category_id": 18000000,
                                 "label": "现代言情"
                             },
@@ -1814,8 +1708,7 @@
                         "price": 5,
                         "chapter_count": 1425,
                         "authors": "千桃",
-                        "categories": [
-                            {
+                        "categories": [{
                                 "category_id": 18000000,
                                 "label": "现代言情"
                             },
@@ -1870,8 +1763,7 @@
                         "price": 5,
                         "chapter_count": 3235,
                         "authors": "荧光紫",
-                        "categories": [
-                            {
+                        "categories": [{
                                 "category_id": 18000000,
                                 "label": "现代言情"
                             },
@@ -1921,8 +1813,7 @@
                         "price": 5,
                         "chapter_count": 936,
                         "authors": "叶非夜",
-                        "categories": [
-                            {
+                        "categories": [{
                                 "category_id": 120000,
                                 "label": "总裁世家"
                             },
@@ -1980,8 +1871,7 @@
                         "price": 5,
                         "chapter_count": 2014,
                         "authors": "君枫苑",
-                        "categories": [
-                            {
+                        "categories": [{
                                 "category_id": 120000,
                                 "label": "总裁世家"
                             },
@@ -2044,8 +1934,7 @@
                         "price": 5,
                         "chapter_count": 2168,
                         "authors": "囧囧有妖",
-                        "categories": [
-                            {
+                        "categories": [{
                                 "category_id": 18000000,
                                 "label": "现代言情"
                             },
@@ -2095,8 +1984,7 @@
                         "price": 3,
                         "chapter_count": 848,
                         "authors": "聿天使",
-                        "categories": [
-                            {
+                        "categories": [{
                                 "category_id": 120000,
                                 "label": "总裁世家"
                             },
@@ -2159,8 +2047,7 @@
                         "price": 5,
                         "chapter_count": 1075,
                         "authors": "妃子一笑",
-                        "categories": [
-                            {
+                        "categories": [{
                                 "category_id": 18000000,
                                 "label": "现代言情"
                             },
@@ -2212,8 +2099,7 @@
                         "price": 5,
                         "chapter_count": 2090,
                         "authors": "万豆薇",
-                        "categories": [
-                            {
+                        "categories": [{
                                 "category_id": 18000000,
                                 "label": "现代言情"
                             },
@@ -2262,8 +2148,7 @@
                         "price": 3,
                         "chapter_count": 612,
                         "authors": "纳兰雪央",
-                        "categories": [
-                            {
+                        "categories": [{
                                 "category_id": 18000000,
                                 "label": "现代言情"
                             },
@@ -2299,8 +2184,7 @@
             "data": {
                 "count": 15,
                 "total": 17,
-                "data": [
-                    {
+                "data": [{
                         "ad": 0,
                         "word_count": 1527573,
                         "owner": 0,
@@ -2331,8 +2215,7 @@
                         "price": 5,
                         "chapter_count": 1487,
                         "authors": "顾翩然",
-                        "categories": [
-                            {
+                        "categories": [{
                                 "category_id": 18000000,
                                 "label": "现代言情"
                             },
@@ -2381,8 +2264,7 @@
                         "price": 5,
                         "chapter_count": 735,
                         "authors": "清清水色",
-                        "categories": [
-                            {
+                        "categories": [{
                                 "category_id": 110000,
                                 "label": "古代言情"
                             },
@@ -2438,8 +2320,7 @@
                         "price": 5,
                         "chapter_count": 1408,
                         "authors": "鱼酱二千",
-                        "categories": [
-                            {
+                        "categories": [{
                                 "category_id": 18000000,
                                 "label": "现代言情"
                             },
@@ -2487,8 +2368,7 @@
                         "price": 5,
                         "chapter_count": 3123,
                         "authors": "夜北",
-                        "categories": [
-                            {
+                        "categories": [{
                                 "category_id": 17000000,
                                 "label": "古代言情"
                             },
@@ -2536,8 +2416,7 @@
                         "price": 5,
                         "chapter_count": 1619,
                         "authors": "傅九",
-                        "categories": [
-                            {
+                        "categories": [{
                                 "category_id": 17000000,
                                 "label": "古代言情"
                             },
@@ -2592,8 +2471,7 @@
                         "price": 5,
                         "chapter_count": 2452,
                         "authors": "却下层楼",
-                        "categories": [
-                            {
+                        "categories": [{
                                 "category_id": 100000,
                                 "label": "现代言情"
                             },
@@ -2651,8 +2529,7 @@
                         "price": 5,
                         "chapter_count": 1329,
                         "authors": "凌薇雪倩",
-                        "categories": [
-                            {
+                        "categories": [{
                                 "category_id": 130000,
                                 "label": "穿越架空"
                             },
@@ -2710,8 +2587,7 @@
                         "price": 3,
                         "chapter_count": 448,
                         "authors": "高山舞者",
-                        "categories": [
-                            {
+                        "categories": [{
                                 "category_id": 110000,
                                 "label": "古代言情"
                             },
@@ -2774,8 +2650,7 @@
                         "price": 5,
                         "chapter_count": 1714,
                         "authors": "封央",
-                        "categories": [
-                            {
+                        "categories": [{
                                 "category_id": 18000000,
                                 "label": "现代言情"
                             },
@@ -2823,8 +2698,7 @@
                         "price": 5,
                         "chapter_count": 1072,
                         "authors": "南色流年",
-                        "categories": [
-                            {
+                        "categories": [{
                                 "category_id": 18000000,
                                 "label": "现代言情"
                             },
@@ -2879,8 +2753,7 @@
                         "price": 5,
                         "chapter_count": 1074,
                         "authors": "叶非夜",
-                        "categories": [
-                            {
+                        "categories": [{
                                 "category_id": 18000000,
                                 "label": "现代言情"
                             },
@@ -2935,8 +2808,7 @@
                         "price": 5,
                         "chapter_count": 2900,
                         "authors": "妖妖仙儿",
-                        "categories": [
-                            {
+                        "categories": [{
                                 "category_id": 18000000,
                                 "label": "现代言情"
                             },
@@ -2986,8 +2858,7 @@
                         "price": 5,
                         "chapter_count": 732,
                         "authors": "灵小火",
-                        "categories": [
-                            {
+                        "categories": [{
                                 "category_id": 120000,
                                 "label": "总裁世家"
                             },
@@ -3050,8 +2921,7 @@
                         "price": 5,
                         "chapter_count": 4303,
                         "authors": "花容月下",
-                        "categories": [
-                            {
+                        "categories": [{
                                 "category_id": 18000000,
                                 "label": "现代言情"
                             },
@@ -3114,8 +2984,7 @@
                         "price": 5,
                         "chapter_count": 1988,
                         "authors": "韩降雪",
-                        "categories": [
-                            {
+                        "categories": [{
                                 "category_id": 120000,
                                 "label": "总裁世家"
                             },
@@ -3159,8 +3028,7 @@
             "data": {
                 "count": 15,
                 "total": 29,
-                "data": [
-                    {
+                "data": [{
                         "ad": 0,
                         "word_count": 5102766,
                         "owner": 0,
@@ -3191,8 +3059,7 @@
                         "price": 5,
                         "chapter_count": 2468,
                         "authors": "鸿蒙树",
-                        "categories": [
-                            {
+                        "categories": [{
                                 "category_id": 5000000,
                                 "label": "都市"
                             },
@@ -3242,8 +3109,7 @@
                         "price": 5,
                         "chapter_count": 1940,
                         "authors": "魏某人",
-                        "categories": [
-                            {
+                        "categories": [{
                                 "category_id": 50000,
                                 "label": "灵异悬疑"
                             },
@@ -3301,8 +3167,7 @@
                         "price": 5,
                         "chapter_count": 1328,
                         "authors": "天蚕土豆",
-                        "categories": [
-                            {
+                        "categories": [{
                                 "category_id": 10000,
                                 "label": "玄幻奇幻"
                             },
@@ -3358,8 +3223,7 @@
                         "price": 5,
                         "chapter_count": 994,
                         "authors": "天兵",
-                        "categories": [
-                            {
+                        "categories": [{
                                 "category_id": 5000000,
                                 "label": "都市"
                             },
@@ -3411,8 +3275,7 @@
                         "price": 5,
                         "chapter_count": 1397,
                         "authors": "我吃西红柿",
-                        "categories": [
-                            {
+                        "categories": [{
                                 "category_id": 1000000,
                                 "label": "玄幻"
                             },
@@ -3462,8 +3325,7 @@
                         "price": 5,
                         "chapter_count": 1769,
                         "authors": "流浪",
-                        "categories": [
-                            {
+                        "categories": [{
                                 "category_id": 30000,
                                 "label": "武侠仙侠"
                             },
@@ -3517,8 +3379,7 @@
                         "price": 5,
                         "chapter_count": 1141,
                         "authors": "野兵",
-                        "categories": [
-                            {
+                        "categories": [{
                                 "category_id": 30000,
                                 "label": "武侠仙侠"
                             },
@@ -3583,8 +3444,7 @@
                         "price": 5,
                         "chapter_count": 3754,
                         "authors": "沙中灰",
-                        "categories": [
-                            {
+                        "categories": [{
                                 "category_id": 50000,
                                 "label": "灵异悬疑"
                             },
@@ -3648,8 +3508,7 @@
                         "price": 5,
                         "chapter_count": 2328,
                         "authors": "白马出淤泥",
-                        "categories": [
-                            {
+                        "categories": [{
                                 "category_id": 30000,
                                 "label": "武侠仙侠"
                             },
@@ -3712,8 +3571,7 @@
                         "price": 5,
                         "chapter_count": 2095,
                         "authors": "言鼎",
-                        "categories": [
-                            {
+                        "categories": [{
                                 "category_id": 30000,
                                 "label": "武侠仙侠"
                             },
@@ -3770,8 +3628,7 @@
                         "price": 5,
                         "chapter_count": 2378,
                         "authors": "犁天",
-                        "categories": [
-                            {
+                        "categories": [{
                                 "category_id": 10000,
                                 "label": "玄幻奇幻"
                             },
@@ -3830,8 +3687,7 @@
                         "price": 5,
                         "chapter_count": 1596,
                         "authors": "蔡晋",
-                        "categories": [
-                            {
+                        "categories": [{
                                 "category_id": 10000,
                                 "label": "玄幻奇幻"
                             },
@@ -3893,8 +3749,7 @@
                         "price": 5,
                         "chapter_count": 1802,
                         "authors": "胭脂熊",
-                        "categories": [
-                            {
+                        "categories": [{
                                 "category_id": 5000000,
                                 "label": "都市"
                             },
@@ -3942,8 +3797,7 @@
                         "price": 5,
                         "chapter_count": 1649,
                         "authors": "8难",
-                        "categories": [
-                            {
+                        "categories": [{
                                 "category_id": 5000000,
                                 "label": "都市"
                             },
@@ -3991,8 +3845,7 @@
                         "price": 5,
                         "chapter_count": 661,
                         "authors": "弹指帅哥",
-                        "categories": [
-                            {
+                        "categories": [{
                                 "category_id": 1000000,
                                 "label": "玄幻"
                             },
@@ -4028,8 +3881,7 @@
             "data": {
                 "count": 3,
                 "total": 3,
-                "data": [
-                    {
+                "data": [{
                         "status": 1,
                         "hidden_info": "",
                         "ad_type": 100,
@@ -4076,8 +3928,7 @@
                             "price": 0,
                             "chapter_count": 875,
                             "authors": "杯酒释兵权",
-                            "categories": [
-                                {
+                            "categories": [{
                                     "category_id": 5000000,
                                     "label": "都市"
                                 },
@@ -4145,8 +3996,7 @@
                             "price": 0,
                             "chapter_count": 1159,
                             "authors": "涂炭",
-                            "categories": [
-                                {
+                            "categories": [{
                                     "category_id": 5000000,
                                     "label": "都市"
                                 },
@@ -4213,8 +4063,7 @@
                             "price": 0,
                             "chapter_count": 908,
                             "authors": "王梓钧",
-                            "categories": [
-                                {
+                            "categories": [{
                                     "category_id": 6000000,
                                     "label": "历史"
                                 },
@@ -4254,8 +4103,7 @@
             "data": {
                 "count": 2,
                 "total": 2,
-                "data": [
-                    {
+                "data": [{
                         "status": 1,
                         "ad_copy": "女：亲爱的，我好冷！\r\n男票：快到我怀里来",
                         "hidden_info": "[[type|banner-h5;more_text|; title_icon|;more_url|]]",
@@ -4270,8 +4118,7 @@
                         "data": {
                             "count": 3,
                             "total": 16,
-                            "data": [
-                                {
+                            "data": [{
                                     "ad": 0,
                                     "word_count": 1101680,
                                     "owner": 0,
@@ -4309,8 +4156,7 @@
                                     "price": 5,
                                     "chapter_count": 1074,
                                     "authors": "叶非夜",
-                                    "categories": [
-                                        {
+                                    "categories": [{
                                             "category_id": 18000000,
                                             "label": "现代言情"
                                         },
@@ -4361,8 +4207,7 @@
                                     "price": 5,
                                     "chapter_count": 248,
                                     "authors": "浮光锦",
-                                    "categories": [
-                                        {
+                                    "categories": [{
                                             "category_id": 120000,
                                             "label": "总裁世家"
                                         },
@@ -4420,8 +4265,7 @@
                                     "price": 3,
                                     "chapter_count": 543,
                                     "authors": "爷爷爷爷爷",
-                                    "categories": [
-                                        {
+                                    "categories": [{
                                             "category_id": 120000,
                                             "label": "总裁世家"
                                         },
@@ -4466,8 +4310,7 @@
                         "data": {
                             "count": 3,
                             "total": 14,
-                            "data": [
-                                {
+                            "data": [{
                                     "ad": 0,
                                     "word_count": 5216619,
                                     "owner": 0,
@@ -4499,8 +4342,7 @@
                                     "price": 5,
                                     "chapter_count": 1523,
                                     "authors": "小刀锋利",
-                                    "categories": [
-                                        {
+                                    "categories": [{
                                             "category_id": 10000,
                                             "label": "玄幻奇幻"
                                         },
@@ -4557,8 +4399,7 @@
                                     "price": 5,
                                     "chapter_count": 2127,
                                     "authors": "丁小白",
-                                    "categories": [
-                                        {
+                                    "categories": [{
                                             "category_id": 10000,
                                             "label": "玄幻奇幻"
                                         },
@@ -4621,8 +4462,7 @@
                                     "price": 5,
                                     "chapter_count": 5300,
                                     "authors": "一剑清新",
-                                    "categories": [
-                                        {
+                                    "categories": [{
                                             "category_id": 10100,
                                             "label": "东方玄幻"
                                         },
