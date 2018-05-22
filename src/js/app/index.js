@@ -137,6 +137,12 @@ require(['jquery', 'swiper', 'bScroll', 'render', 'text!bookTb', 'text!bookLr', 
 
     })
 
+    //书架
+    $(".switch-shelf").on("click", function() {
+        $(".shelf-list").toggleClass("list-type");
+
+    })
+
     //实例化轮播图
     function initBannerSwiper() {
         var bannerSwiper = new swiper(".banner-swiper", {

@@ -25,11 +25,11 @@ gulp.task("css", function() {
 gulp.task("server", function() {
     gulp.src("src")
         .pipe(server({
-            port: 1236,
-            host: '192.168.1.100',
+            port: 9292,
             middleware: function(req, res, next) {
                 if (/\/api/g.test(req.url)) {
-                    var data = mock(req.url);
+                    var url = decodeURI(req.url);
+                    var data = mock(url);
 
                     res.end(JSON.stringify(data))
                 }

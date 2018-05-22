@@ -66,15 +66,15 @@
                 "total": 19,
                 "data": [{
                         "ad": 0,
-                        "word_count": 5423347,
+                        "word_count": 5230355,
                         "owner": 0,
                         "allow_discount": false,
                         "ad_time": 0,
                         "ad_duration": 0,
                         "free_chapter": false,
-                        "score_count": 4386,
+                        "score_count": 4031,
                         "copyright": "",
-                        "title": "驭房有术",
+                        "title": "老九门",
                         "new_tags": [
                             "轻松",
                             "法师",
@@ -82,17 +82,17 @@
                             "玄学"
                         ],
                         "on_sale": true,
-                        "comment_count": 2346,
+                        "comment_count": 2159,
                         "has_ad": 0,
-                        "click": 64488633,
-                        "latest_id": 2244,
-                        "score": 7.99,
+                        "click": 59957335,
+                        "latest_id": 2192,
+                        "score": 7.88,
                         "allow_free_read": 1,
                         "rights_id": 10080,
                         "channel": [
                             1
                         ],
-                        "updated": 1524081372,
+                        "updated": 1521739294,
                         "finish": false,
                         "tags": [
                             "风水秘术",
@@ -100,7 +100,7 @@
                             "灵异奇谈"
                         ],
                         "price": 5,
-                        "chapter_count": 2245,
+                        "chapter_count": 2193,
                         "authors": "铁锁",
                         "categories": [{
                                 "category_id": 8000000,
@@ -113,11 +113,11 @@
                         ],
                         "rights": "阅文集团旗下起点中文网",
                         "level": 0,
-                        "cover": "http://cover.read.duokan.com/mfsv2/download/fdsc3/p01I66oHszK2/7CDwQEqR7CFkXT.jpg",
+                        "cover": "http://cover.read.duokan.com/mfsv2/download/fdsc3/p01TQfpyV6px/06EirDzmjj8zuK.jpg",
                         "summary": "进城闯荡的小阿姨衣锦还乡，张禹的老妈心动了，决定让儿子前去投奔。不曾想，所谓的豪宅就是一个三十平米的...",
                         "fiction_id": 352876,
                         "outer_id": "5691370404281003",
-                        "latest": "第2245章 精髓"
+                        "latest": "第2193章 这个黑锅我可不背"
                     },
                     {
                         "ad": 0,
