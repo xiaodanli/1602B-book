@@ -1,4 +1,4 @@
-require(['jquery', 'swiper', 'bScroll', 'render', 'text!bookTb', 'text!bookLr', 'getSlideDirection'], function($, swiper, bScroll, render, bookTb, bookLr, getSlideDirection) {
+require(['jquery', 'swiper', 'bScroll', 'render', 'text!bookTb', 'text!bookLr', 'getSlideDirection', 'storage'], function($, swiper, bScroll, render, bookTb, bookLr, getSlideDirection, storage) {
     //实例化最外层swiper
     var wrapSwiper = new swiper(".wrap-swiper");
 
@@ -184,6 +184,39 @@ require(['jquery', 'swiper', 'bScroll', 'render', 'text!bookTb', 'text!bookLr', 
                 console.warn(error)
             }
         })
+    }
+
+    //点击我的
+    $(".icon-my").on("click", function() {
+        isLogin()
+    })
+
+    function isLogin() {
+        var username = storage.get("username") || '';
+
+        if (username) {
+            $.ajax({
+                url: '/isLogin',
+                dataType: 'json',
+                type: 'post',
+                data: {
+                    username: username
+                },
+                success: function(res) {
+                    console.log(res);
+                    if (res.code === 1 && res.result) {
+                        window.location.href = "../../page/my.html";
+                    } else if ((res.code === 1 && !res.result) || res.code === 2) {
+                        window.location.href = "../../page/login.html";
+                    }
+                },
+                error: function(error) {
+                    console.warn(error)
+                }
+            })
+        } else {
+            location.href = "../../page/login.html";
+        }
     }
 
     initPage()
