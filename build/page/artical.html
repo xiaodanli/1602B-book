@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <script src="../js/libs/flexible.js"></script>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>阅读界面</title>
+    <link rel="stylesheet" href="../css/artical-6473dd28a9.css">
+</head>
+
+<body>
+    <div class="wrap">
+        <section class="artical-con"></section>
+        <script type="text/x-handlebars-template" id="artical-tpl">
+            <h1>{{t}}</h1>
+            {{#each p}}
+            <p>{{this}}</p>
+            {{/each}}
+        </script>
+        <section class="mask none"></section>
+        <section class="set-t none">
+            <span class="icon-circle-back">返回</span>
+        </section>
+        <section class="set-b none">
+            <div class="chapter-btns">
+                <span class="pre-btn">上一章</span>
+                <div>
+                    <span class="cur">1</span>/
+                    <span class="total"></span>
+                </div>
+                <span class="next-btn">下一章</span>
+            </div>
+            <div class="style-btns">
+                <dl class="chapter-btn">
+                    <dt></dt>
+                    <dd>目录</dd>
+                </dl>
+                <dl class="size">
+                    <dt></dt>
+                    <dd>字体</dd>
+                </dl>
+                <dl class="day night">
+                    <dt></dt>
+                    <dd>黑夜</dd>
+                </dl>
+                <dl class="down">
+                    <dt></dt>
+                    <dd>下载</dd>
+                </dl>
+            </div>
+        </section>
+        <section class="set-panel none">
+            <div class="font-btns">
+                <span>字体</span>
+                <div>
+                    <button class="large-btn">大</button>
+                    <button class="small-btn">小</button>
+                </div>
+            </div>
+            <div class="bg-btns">
+                <span>背景</span>
+                <ul id="set-bg-btns">
+                    <li bg-color="#f7eee5" class="active"></li>
+                    <li bg-color="#e9dfc7"></li>
+                    <li bg-color="#a4a4a4"></li>
+                    <li bg-color="#cdefce"></li>
+                    <li bg-color="#283548"></li>
+                    <li bg-color="#0f1410"></li>
+                </ul>
+            </div>
+        </section>
+    </div>
+    <script src="../js/libs/require.js"></script>
+    <script>
+        require(['../js/main.js'], function() {
+            require(['artical'])
+        })
+    </script>
+</body>
+
+</html>

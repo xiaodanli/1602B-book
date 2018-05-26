@@ -4,7 +4,43 @@ require(['jquery', 'header', 'render', 'text!bookSearchTpl', 'storage'], functio
     $("body").append(bookSearchTpl);
 
     var history = storage.get("history") || [];
-    render(history, $("#tag-tpl"), $(".type-tags"), true);
+
+    var formatArr = [];
+    $.ajax({
+        url: '/api/hot',
+        dataType: 'json',
+        success: function(res) {
+            console.log(res);
+
+            res.ads.forEach(function(item, index) {
+                formatArr.push(item.ad_name);
+            })
+            var newArr = formatArr.concat(history);
+            render(removeFun(newArr), $("#tag-tpl"), $(".type-tags"), true);
+        },
+        error: function(error) {
+            console.warn(error)
+        }
+    })
+
+    function removeFun(arr) {
+        var obj = {};
+        var targetArr = [];
+
+        for (var i = 0; i < arr.length; i++) {
+            if (!obj[arr[i]]) {
+                targetArr.push(arr[i]);
+                obj[arr[i]] = 1;
+            }
+
+            // !obj['诛仙']
+
+            // targetArr.push('诛仙')
+
+            // obj['诛仙'] = 1  
+        }
+        return targetArr
+    }
 
     $(".search-btn").on("click", function() {
         var val = $(".ipt").val();
@@ -47,7 +83,8 @@ require(['jquery', 'header', 'render', 'text!bookSearchTpl', 'storage'], functio
         var val = $(this).val();
         if (!val) {
             var history = storage.get("history") || [];
-            render(history, $("#tag-tpl"), $(".type-tags"), true);
+            var concatArr = formatArr.concat(history);
+            render(removeFun(concatArr), $("#tag-tpl"), $(".type-tags"), true);
             $(".type-tags").show();
             $(".search-list").html(' ');
             $(".search-list").hide();

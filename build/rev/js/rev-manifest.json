@@ -1,0 +1,13 @@
+{
+  "app/artical.js": "app/artical-6688940448.js",
+  "app/book-detail.js": "app/book-detail-4fc6e3f33d.js",
+  "app/chapter-list.js": "app/chapter-list-c098d35b9a.js",
+  "app/index.js": "app/index-8c582eaf6e.js",
+  "app/login.js": "app/login-70724bcc46.js",
+  "app/search.js": "app/search-4a509847a9.js",
+  "common/getRequest.js": "common/getRequest-25431477a8.js",
+  "common/header.js": "common/header-160c249068.js",
+  "common/render.js": "common/render-e4b89052df.js",
+  "common/slide-direction.js": "common/slide-direction-5178240690.js",
+  "common/storage.js": "common/storage-29abd6a743.js"
+}

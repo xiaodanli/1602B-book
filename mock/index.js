@@ -4,6 +4,7 @@ var recommendData2 = require('./data/recommend/recommend2.json');
 var recommendData3 = require('./data/recommend/recommend3.json');
 var searchZhu = require('./data/search-zhu.json');
 var searchTian = require('./data/search-tian.json');
+var searchHot = require('./data/search-hot.json');
 var bookDetail = require('./data/352876.json');
 var chapterList = require('./data/chapter-list.json');
 var artical_1 = require('./data/artical/data1.json');
@@ -24,6 +25,7 @@ var jsonObj = {
         '/api/artical?fiction_id=352876&chapter_id=2': artical_2,
         '/api/artical?fiction_id=352876&chapter_id=3': artical_3,
         '/api/artical?fiction_id=352876&chapter_id=4': artical_4,
+        '/api/hot': searchHot
     }
     // /api/search?key=1212
 module.exports = function(url) {
